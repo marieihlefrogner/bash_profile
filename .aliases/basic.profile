@@ -5,8 +5,8 @@ alias ldir="ls -al | grep ^d" # List all directories in current directory in lon
 
 alias o="open ." # Open the current directory in Finder
 
-alias rb="source ~/.aliases/.profile" # Reload aliases
-alias bp="vim ~/.aliases/" # Edit aliases
+alias rb="source ~/bash_profile/.aliases/.profile" # Reload aliases
+alias bp="vim ~/bash_profile/.aliases/" # Edit aliases
 
 alias cpsshkey="cat ~/.ssh/id_rsa.pub | pbcopy" # copy public key to clipboard
 
