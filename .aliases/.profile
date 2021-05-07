@@ -4,3 +4,5 @@ for profile in ./*.profile
 do
 	source $profile
 done
+
+cd ~
