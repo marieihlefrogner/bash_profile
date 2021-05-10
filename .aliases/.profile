@@ -5,4 +5,4 @@ do
 	source $profile
 done
 
-cd ~
+cd - > /dev/null
