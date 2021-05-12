@@ -19,6 +19,8 @@ upload_ios_app() {
 
 alias devmenu_android="adb shell input keyevent 82"
 
+alias code="open -a 'Visual Studio Code'"
+
 # Other
 
 countlines() {
