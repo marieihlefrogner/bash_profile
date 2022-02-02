@@ -15,3 +15,9 @@ fixstrayf() {
 realpath() {
  	python3 -c "import os.path; print(os.path.relpath('$1', '$2'))"
 }
+
+greps() {
+	[ $# -lt 2 ] && echo "Usage: greps <string> <location>" && return
+	echo ">> Searching for '$1' in '$2'"
+	grep -RIn $1 $2
+}

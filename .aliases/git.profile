@@ -1,9 +1,13 @@
 alias st="git status"
 #alias cmt="git commit -am"
+alias gp="git pull"
 alias gamend="git commit --amend"
 alias gitignore="echo .DS_Store > .gitignore"
 alias gitrevert_force_hard="git clean --force && git reset --hard"
 alias gremotes="git remote -v"
+alias gitreset="git checkout HEAD --"
+alias gch="git checkout"
+alias gpush="git push -u origin HEAD"
 
 function gitcheckoutpull() {
     git fetch && git checkout $1 && git pull origin $1
